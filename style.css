@@ -17,7 +17,6 @@ body {
 .customContainear {
     max-width: 1140px;
     margin: 0px auto; 
-    /* background: #FAFAFB; */
     margin-top: 74px;
     border-radius: 20px;
 }
@@ -25,6 +24,14 @@ body {
     width: 100%;
     background: #FAFAFB;
     padding:74px 96px;
+    border-radius:20px;
+}
+
+.customContainearHelperSecond{
+    width: 100%;
+    background: #fff;
+    padding:74px 96px;
+    border-radius:20px;
 }
 
 .text-black {
@@ -200,4 +207,18 @@ nav {
 .inspiration{
     width: 100%;
     margin-top: 96px;
+}
+.vdoRaper{
+    padding: 32px;
+    width: 100%;
+    height: 614px;
+    border: 0.5px solid #1111114c;
+    border-radius: 20px;
+    margin-top: 48px;
+}
+
+.vdoRaper iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
