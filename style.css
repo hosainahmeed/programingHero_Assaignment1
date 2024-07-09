@@ -43,6 +43,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+.cursor{
+    cursor: pointer;
+}
 
 .flex-cd {
     display: flex;
@@ -58,16 +61,24 @@ body {
     flex-direction: column;
 }
 
+.gap-8 {
+    gap: 8px;
+}
 .gap-36 {
     gap: 36px;
 }
-
 
 .gap-32 {
     gap: 32px;
 }
 .gap-24 {
     gap: 24px;
+}
+.mt-96{
+    margin-top: 96px;
+}
+.mt-48{
+    margin-top: 48px;
 }
 
 .space-between {
@@ -219,6 +230,11 @@ nav {
     transition: cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
 }
 
+.boxShadow:hover{
+    box-shadow: 0px 0px 50px #1111114a;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
+}
+
 .textDev {
     width: 477px;
 }
@@ -243,11 +259,20 @@ nav {
     border-radius: 20px;
 }
 
-.target{
-    margin-top: 96px;
-}
+
+
+
 
 .item{
     height: 299px;
     padding: 40px;
+    border-radius: 20px;
+}
+
+
+.skill{
+    width: 100%;
+    padding: 40px 40px;
+    border:1px solid #DBDCDE ;
+    border-radius: 20px;
 }
