@@ -17,10 +17,14 @@ body {
 .customContainear {
     max-width: 1140px;
     margin: 0px auto; 
-    padding: 80px 97px;
-    background: #FAFAFB;
+    /* background: #FAFAFB; */
     margin-top: 74px;
     border-radius: 20px;
+}
+.customContainearHelper{
+    width: 100%;
+    background: #FAFAFB;
+    padding:74px 96px;
 }
 
 .text-black {
@@ -190,4 +194,10 @@ nav {
 
 .textDev {
     width: 477px;
+}
+
+
+.inspiration{
+    width: 100%;
+    margin-top: 96px;
 }
