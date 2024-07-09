@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Azeret Mono", monospace;
     text-decoration: none;
+    list-style: none;
 }
 
 html,
@@ -36,6 +37,9 @@ body {
 
 .text-black {
     color: #111;
+}
+.text-white {
+    color: #ffffff;
 }
 
 .flex-c {
@@ -174,6 +178,9 @@ body {
 .text-mid {
     font-weight: 500;
 }
+.text-lighter {
+    font-weight: 100;
+}
 
 .text-center {
     text-align: center;
@@ -275,4 +282,54 @@ nav {
     padding: 40px 40px;
     border:1px solid #DBDCDE ;
     border-radius: 20px;
+}
+
+.supporrtSection{
+    width: 100%;
+    height: 313px;
+    border-radius: 20px; 
+    padding: 64px 48px;
+    position: relative;
+    background-color: red;
+    overflow: hidden;
+}
+
+.supporrtSection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    filter: brightness(0.7);
+
+}
+.childeSupport{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+
+.feedback{
+    padding: 17px 20px;
+    width: 548px;
+    border-radius:10px;
+}
+.feedback::placeholder{
+    font-size: 16px;  
+}
+
+.submitbtn{
+    padding: 17px 20px;
+    border:none;
+    border-radius:10px;
+}
+
+footer{
+    width: 100%;
+    background-color: #F8F8F8;
+    padding: 20px 150px;
 }
