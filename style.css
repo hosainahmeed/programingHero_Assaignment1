@@ -14,6 +14,19 @@ body {
     width: 100%;
 }
 
+.customContainear {
+    max-width: 1140px;
+    margin: 0px auto; 
+    padding: 80px 97px;
+    background: #FAFAFB;
+    margin-top: 74px;
+    border-radius: 20px;
+}
+
+.text-black {
+    color: #111;
+}
+
 .flex-c {
     display: flex;
     align-items: center;
@@ -27,11 +40,21 @@ body {
     flex-direction: column;
 }
 
+.flex-startD {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .gap-36 {
     gap: 36px;
 }
 
 
+.gap-32 {
+    gap: 32px;
+}
 .gap-24 {
     gap: 24px;
 }
@@ -41,6 +64,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 
 .space-around {
     display: flex;
@@ -61,6 +85,7 @@ body {
     padding: 17px 24px;
     color: black;
     border-radius: 10px;
+    border: 0.5px solid #111;
 }
 
 .btn-primary a {
@@ -78,18 +103,21 @@ body {
     color: white;
 }
 
-.btnhover:hover{
-    box-shadow: 0px 0px 30px #111;
+.btnhover:hover {
+    box-shadow: 0px 0px 30px #1111113a;
     transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 
-.btnhoverInset:hover{
-    box-shadow:inset 0px 0px 30px #111;
+.btnhoverInset:hover {
+    box-shadow: inset 0px 0px 30px #1111112e;
     transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    border: 1px solid #fff;
 }
+
 .text-16 {
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: normal;
+    line-height: 26px;
 }
 
 .text-20 {
@@ -115,12 +143,18 @@ body {
 .text-bold {
     font-weight: 800;
 }
+.text-mid {
+    font-weight: 500;
+}
+
+.text-center {
+    text-align: center;
+}
 
 
 nav {
     padding: 0px 150px;
     margin-top: 38px;
-    /* background-color: red; */
 }
 
 .heroSection {
@@ -135,4 +169,25 @@ nav {
 .heroText {
     width: 998px;
     text-align: center;
+}
+
+.developerSection {
+    width: 100%;
+}
+
+.devSection {
+    width: 946px;
+    padding: 48px 48px;
+    background-color: #fff;
+    border-radius: 0.25rem;
+
+}
+
+.devSection:hover{
+    box-shadow: 0px 0px 50px #1111114a;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
+}
+
+.textDev {
+    width: 477px;
 }
